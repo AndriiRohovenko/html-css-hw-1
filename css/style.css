@@ -1,0 +1,130 @@
+/* h1, h2, h3, h4, h5, h6 {
+	font-family: 'Tahoma';
+} */
+
+:root {
+  /* Font Variables */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', serif;
+  --logo-font: 'Raleway', sans-serif;
+  --title-font: 'Raleway', serif;
+
+  /* Font Weights */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+
+  /* colors */
+  --white: 255, 255, 255;
+  --iris: 90, 79, 207;
+  --navy-blue: 19, 31, 47;
+  --slate: 43, 44, 55;
+}
+
+body {
+  font-family: var(--main-font);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+  text-transform: ;
+}
+
+li {
+  list-style-type: none;
+}
+
+.page-header {
+  background-color: rgb(var(--white));
+}
+
+.main-navigation {
+}
+
+.brand-logo {
+  font-family: var(--logo-font);
+  font-weight: var(--weight-bold);
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgb(var(--iris));
+}
+
+.brand-logo-header-text {
+  color: black;
+}
+
+.navigation-menu {
+}
+.navigation-item {
+}
+
+.navigation-link {
+  font-weight: var(--weight-medium);
+  color: rgb(var(--navy-blue));
+}
+
+.navigation-link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--iris));
+}
+.navigation-link:focus,
+.navigation-link:active {
+  background-color: green;
+}
+
+.contact-info {
+}
+.contact-list {
+}
+.contact-item {
+}
+.contact-link {
+  color: rgb(var(--slate));
+}
+.hero-section {
+  color: rgb(var(--navy-blue));
+}
+.hero-title {
+  text-align: center;
+}
+.cta-button {
+}
+.strengths-section {
+}
+.section-title {
+  text-align: center;
+}
+.strengths-list {
+}
+.strength-item {
+}
+.strength-title {
+}
+.strength-description {
+}
+.team-section {
+}
+.team-list {
+}
+.team-member {
+}
+.team-photo {
+}
+.team-name {
+}
+.team-role {
+}
+.page-footer {
+  background-color: #212121;
+}
+
+.brand-logo-footer-text {
+  color: rgb(var(--white));
+}
+.footer-text {
+}
